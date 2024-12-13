@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Healthcare Clinic</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Contact Us</h1>
+        <!-- Link back to the main page -->
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+
+    <!-- Contact Form Section -->
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <form id="contact-form">
+            <!-- Input for Name -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    
+            <!-- Input for Email -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    
+            <!-- Input for Message -->
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Write your message" required></textarea>
+    
+            <!-- Submit Button -->
+            <button type="submit">Send Message</button>
+        </form>
+    </section>    
+
+    <script src="js/script.js"></script>
+</body>
+</html>
